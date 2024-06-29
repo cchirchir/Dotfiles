@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/charles/fantasy_world_by_awesomeidea_dg7vw42.png' 
