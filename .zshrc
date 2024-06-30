@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 #
 
 alias htop='bpytop'
-alias update="yay -Syyu"
+alias update="yay -Syyu --noconfirm"
 alias scrot="scrot --select --line mode=edge"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

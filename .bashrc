@@ -9,3 +9,6 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 alias config='/usr/bin/git --git-dir=/home/charles/.cfg/ --work-tree=/home/charles'
+
+export EDITOR='nvim'
+export VISUAL='nvim'
