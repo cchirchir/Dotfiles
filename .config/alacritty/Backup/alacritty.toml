@@ -1,0 +1,50 @@
+live_config_reload = true
+
+import = [
+  "~/.config/alacritty/catppuccin.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[shell]
+program = "zellij"
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[cursor]
+vi_mode_style = "Block"
+style = "Underline"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+padding.x = 16
+padding.y = 14
+decorations = "None"
+opacity = 0.97
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" }
+
+]
