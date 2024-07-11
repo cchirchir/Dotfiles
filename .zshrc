@@ -131,6 +131,9 @@ alias g='git'
 alias d='docker'
 alias cat='bat'
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
 # Compression
 compress() { tar -czf "${1%/}.tar.gz" "${1%/}"; }
 alias decompress="tar -xzf"
