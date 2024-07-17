@@ -143,3 +143,4 @@ alias decompress="tar -xzf"
 
 eval "$(zoxide init zsh)"
 alias config='/usr/bin/git --git-dir=/home/charles/.cfg/ --work-tree=/home/charles'
+export PATH=$HOME/.local/bin:$PATH
